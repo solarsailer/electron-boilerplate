@@ -1,0 +1,26 @@
+# Always-ignore.
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+npm-debug.log
+
+# OS/Editor.
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+nbproject
+Thumbs.db
+
+# Packages.
+node_modules/
+bower_components/
+  

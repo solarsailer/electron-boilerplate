@@ -1,0 +1,25 @@
+{
+  "name": "electron-boilerplate",
+  "version": "0.1.0",
+  "description": "Electron Boilerplate",
+  "license": "MIT",
+  "repository": "solarsailer/electron-boilerplate",
+  "author": {
+    "name": "Matthieu Oger",
+    "url": "solarsailer.net"
+  },
+  "keywords": [
+    "electron",
+    "boilerplate"
+  ],
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "standard | snazzy"
+  },
+  "devDependencies": {
+    "electron-prebuilt-compile": "^1.4.15",
+    "snazzy": "^6.0.0",
+    "standard": "^8.6.0"
+  }
+}

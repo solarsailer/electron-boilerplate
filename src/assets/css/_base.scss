@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------- *\
+ * Border-Box.
+\* ---------------------------------------------------------- */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* ---------------------------------------------------------- *\
+ * Defaults.
+\* ---------------------------------------------------------- */
+
+html {
+  color: $base-font-color;
+
+  font-family: $base-font-family;
+  font-size: 62.5%; /* Reset to 10px font. DON'T MODIFY. */
+  line-height: $base-line-height;
+}
+
+body {
+  position: relative;
+
+  min-height: 100vh;
+  margin: 0;
+
+  font-size: $base-font-size;
+}
+
+::selection {
+  color: white;
+  background: $brand-color;
+}
